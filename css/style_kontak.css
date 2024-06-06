@@ -1,0 +1,145 @@
+*, html {
+    font-family: "Roboto Slab", serif;
+    margin: 0 0 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav .nama {
+    font-size: 1em;
+}
+
+header nav .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav .nav-bar .gambar {
+    margin-left: 20px;
+}
+
+header nav .nav-bar .menu ul{
+    display: inline;
+    align-self: center;
+}
+
+header nav .nav-bar .menu ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav .nav-bar .menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav .nav-bar .menu ul li .page-now {
+    color: red;
+}
+
+header nav .nav-bar .menu ul li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.5s;
+}
+
+main {
+    padding-top: 70px;
+}
+
+main .judul{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+main .card-contact {
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+main .card-contact .card-info {
+    display: flex;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 4px solid red;
+    flex-direction: row;
+    width: 340px;
+    background-color: white;
+    padding: 10px;
+}
+
+main .card-contact .card-info:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+main .card-contact .card-info .logo i{
+    font-size: 5em;
+}
+
+main .card-contact .card-info .logo{
+    margin-right: 20px;
+}
+
+main .or{
+    text-align: center;
+}
+
+main form .wrap-form1{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+main form .wrap-form1 .formulir{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+main form .wrap-form1 .formulir2{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 300px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+main form .wrap-form1 .formulir2 textarea{
+    height: 300px;
+}
+
+main .btn button{
+    display: flex;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-size: 1.2em;
+}
